@@ -16,19 +16,21 @@ A Java desktop Application with MySQL database for creating custom reminders.
 
 
 ## Running the tests
-1) After Configuring the system correctly, run the Home.java file.
-2) It will take you to the Home page and at the same time, the Quartz scheduler's job thread start and runs in background.
-3) There are two buttons on the Home page, one to Add Reminder and the other to View Reminder.
-4) When you click on Add Reminder button, it will take you Add Reminder page where you can add reminder.
-5) When you click on View Reminder button, it will take you View Reminder page where you can view, update and delete reminder
-6) Note: Reminder is checked evey minute, so the reminder notification can be triggered at any second of the set time.
+1) After Configuring the system correctly, run the reminder.java file.
+2) It will take you to the reminder page and at the same time, the  scheduler's job thread start and runs in background.
+3) There are three buttons on the reminder page, one to create Reminder,update Reminder and to delete reminder.
+4) When you click on  add button, it will take you add Reminder page where you can add reminder.
+5) When you click on update Reminder button, it will take you update Reminder page where you can update  reminder
+6)when you select the row in the table view and then click delete, it will delete the corresponding row from the database.
+7)A list box is there at the left hand side of the window we will get sortded table view based on the values in the database table.
+8)Note: Reminder is checked evey minute, so the reminder notification can be triggered at any second of the set time.
 
 
 
 
 ## Built With
 
-* Netbeans 8.2
+* Netbeans 8.1
 * Mysql Database
 * Scheduler for running Job (Check database every 1 minute for reminder)
 
